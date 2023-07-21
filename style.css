@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 94vh;
+    background: linear-gradient(50deg, #153677,black);
+    padding: 10px;
+}
+
+.to-do-app{
+    width: 100%;
+    max-width: 520px;
+    background: white;
+    margin: 30px auto 20px;
+    padding: 30px 30px 10px;
+    border-radius: 20px;
+}
+
+.to-do-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.to-do-app h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.row input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.row button{
+    border: none;
+    outline: none;
+    padding: 16px 35px;
+    background: #ff5645;
+    color: white;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+   position: relative;
+   display: flex;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url(images/uncheck.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 8px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+
+}
+
+ul li.checked::before{
+    background-image: url(images/check.jpg);
+}
+
+
+.item-btn{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 15px;
+    color: #555;
+    line-height: 40px;
+    text-align: center; 
+ 
+}
+
+.item-btn i{
+    margin: 5px;
+    padding: 10px;
+}
+.item-btn i:hover{
+    background-color: #CFCCCC ;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+}
+
+.footer hr{
+    color: black;
+  }
+
+  .footer p{
+    padding: 10px;
+    text-align: center;
+  }

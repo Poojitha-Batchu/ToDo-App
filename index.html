@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To- do app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="to-do-app">
+            <h2>To-Do List <img src="images/icon.png" alt="icon"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your to-do">
+                <button onclick="addTask()" id="addBtn">Add</button>
+            </div>
+
+            <div>
+                <h4>All Tasks</h4>
+                <ul id="allTasks"></ul>
+            </div>
+            <div>
+                <h4>Pending Tasks</h4>
+                <ul id="pendingTasks"></ul>
+            </div>
+            <div>
+                <h4>Completed Tasks</h4>
+                <ul id="completedTasks"></ul>
+            </div> 
+
+                <ul id="filteredCompletedTasks"></ul>
+            </div>
+            
+            <ul id="list-container">
+                 <!-- <li class="checked">Task-1
+                    <div class="item-btn">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                 </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+    <footer class="footer">
+        <hr><p>Copyright &copy; 2023 by Batchu Poojitha | All Rights are Reserved.</p>
+    </footer>
+</body>
+</html>
