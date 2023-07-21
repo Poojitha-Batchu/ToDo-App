@@ -141,4 +141,5 @@ ul li.checked::before{
   .footer p{
     padding: 10px;
     text-align: center;
+    font-size:12px;
   }
