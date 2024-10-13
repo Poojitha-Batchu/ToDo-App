@@ -1,6 +1,6 @@
-# OIBSIP-Level2-Task3
+# ToDo App
 
-This repository contains the completed solution for Level 2 Task 3, a To-Do App, as part of the internship at Oasis Infobyte. The To-Do App is a web-based application that allows users to manage their tasks and keep track of their to-do lists. 
+The To-Do App is a web-based application that allows users to manage their tasks and keep track of their to-do lists. 
 
 ## Features:
 - Task Management: Users can create, update, and delete tasks.
