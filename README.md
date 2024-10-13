@@ -10,9 +10,3 @@ The To-Do App is a web-based application that allows users to manage their tasks
 ## Technologies Used:
 
 Front-End: HTML, CSS, JavaScript
-
-Contributions:
-
-Contributions to this project are welcome. Feel free to open issues for bug reports or new feature requests. If you would like to contribute to the codebase, please fork the repository and create a pull request with your changes.
-
-Please feel free to reach out if you have any questions or need further assistance.
